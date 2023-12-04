@@ -95,8 +95,8 @@ devDependencies:
     specifier: ^4.6.0
     version: 4.6.0(eslint@8.51.0)
   fs-extra:
-    specifier: 11.1.0
-    version: 11.1.0
+    specifier: 11.2.0
+    version: 11.2.0
   husky:
     specifier: ^8.0.3
     version: 8.0.3
@@ -663,7 +663,7 @@ packages:
     dependencies:
       '@commitlint/top-level': 17.4.0
       '@commitlint/types': 17.4.4
-      fs-extra: 11.1.0
+      fs-extra: 11.2.0
       git-raw-commits: 2.0.11
       minimist: 1.2.8
     dev: true
@@ -3415,8 +3415,8 @@ packages:
       mime-types: 2.1.35
     dev: true
 
-  /fs-extra@11.1.0:
-    resolution: {integrity: sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==}
+  /fs-extra@11.2.0:
+    resolution: {integrity: sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==}
     engines: {node: '>=14.14'}
     dependencies:
       graceful-fs: 4.2.11
